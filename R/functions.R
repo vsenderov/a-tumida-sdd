@@ -1,3 +1,37 @@
+#' Open a DwC CSV File to MaxEnt File
+#' 
+#' @param dwc The DwC file.
+#' @param maxent The Maxent file.
+#' @param species Default is "aetina_tumida".
+#' 
+#' @return Only side-effects.
+#' 
+#' @example 
+#' 
+#' dwc2maxent(
+#' dwc = "occurrence-data//A-tumida-occurrences-Italy.csv",
+#' maxent = "maxent-input//A-tumida-occurrences-Italy.maxent"
+#' )
+#' 
+dwc2maxent <- function(dwc, maxent, species = "aetina_tumida")
+{
+  data <- read.csv2(file = dwc, encoding = "UTF-8")
+  data$decimalLatitude = as.numeric(sapply(data$verbatimLatitude, deg2dec))
+  data$decimalLongitude = as.numeric(sapply(data$verbatimLongitude, deg2dec))
+  data$scientificName = rep(x = species, times = nrow(data))
+  data <- pk2df(data)
+  
+  maxent_data = data.frame(
+    species = data$scientificName,
+    "dd_long" = data$decimalLongitude,
+    "dd_lat" = data$decimalLatitude
+  )
+  
+  write.csv(file = maxent, x = maxent_data, quote = FALSE, row.names = FALSE)
+  
+}
+
+
 
 #' Convert Degrees Minutes Seconds to Decimal
 #'
@@ -41,7 +75,7 @@ pk2df = function(data, life_stage_names = c("egg", "larva", "pupa", "adult"))
 {
   rowToLong = function(data_frame_row)
   {
-    right_side <- toLongFormat(arow = data[data_frame_row, life_stage_names])
+    right_side <- right_hand_side(arow = data[data_frame_row, life_stage_names])
     left_side <- do.call(
       what = rbind, 
       replicate(

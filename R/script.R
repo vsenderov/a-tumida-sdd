@@ -1,12 +1,78 @@
+# Setup
+
 library(measurements)
 library(stringi)
+library(ggplot2)
+library(ggmap)
+library(maps)
+library(mapdata)
+source("R/functions.R")
+setwd("..")
 
-data <- read.csv2(file = "../data/dataset1.csv", encoding = "UTF-8")
-data$decimalLatitude = sapply(data$verbatimLatitude, deg2dec)
-data$decimalLongitude = sapply(data$verbatimLongitude, deg2dec)
-data$scientificName = rep(x = "aetina_tumida", times = nrow(data))
-data <- wide2long(data)
+# Convert DwC CSV file to Maxent Format
 
-maxent_data = data.frame(species = data$scientificName, "dd long" = data$decimalLongitude, "dd lat" = data$decimalLatitude)
-names(maxent_data) = c("species", "dd long", "dd lat")
-write.csv(file = "../data/dataset1-maxent.csv", x = maxent_data, quote = FALSE, row.names = FALSE)
+# Italy
+
+dwc2maxent(
+ dwc = "occurrence-data//A-tumida-occurrences-Italy.csv",
+ maxent = "maxent-input//A-tumida-occurrences-Italy.maxent"
+)
+
+# World is done
+
+# Inspect Data
+
+occurrences_italy <- read.csv(file = "maxent-input//A-tumida-occurrences-Italy.maxent",  header = TRUE, sep = ",")
+italy <- map_data("italy")
+
+ggplot() +
+  geom_polygon(
+    data = italy,
+    aes(x=long, y = lat, group = group)
+    ) + 
+  coord_fixed(1.3) +
+  geom_point(
+    data = occurrences_italy,
+    aes(x = dd_long, y = dd_lat),
+    color = "black",
+    size = 5
+    ) +
+  geom_point(
+    data = occurrences_italy,
+    aes(x = dd_long, y = dd_lat),
+    color = "yellow",
+    size = 4
+    )
+
+# Seems that there are some occurrence way out of Italy, delete them.
+
+occurrences_italy <- occurrences_italy[occurrences_italy$dd.long < 100, ]
+
+write.csv(file = "maxent-input//A-tumida-occurrences-Italy.maxent", x = occurrences_italy, quote = FALSE, row.names = FALSE)
+
+
+
+# WORLD
+
+occurrences_world <- read.csv(file = "maxent-input//A-tumida-occurrences-World+Italy.maxent",  header = TRUE, sep = ",",
+                              colClasses = c("character", "numeric", "numeric"))
+world <- map_data("world")
+
+ggplot() +
+  geom_polygon(
+    data = world,
+    aes(x=long, y = lat, group = group)
+  ) + 
+  coord_fixed(1.3) +
+  geom_point(
+    data = occurrences_world,
+    aes(x = dd_long, y = dd_lat),
+    color = "black",
+    size = 5
+  ) +
+  geom_point(
+    data = occurrences_world,
+    aes(x = dd_long, y = dd_lat),
+    color = "yellow",
+    size = 4
+  )
