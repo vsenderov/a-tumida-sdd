@@ -76,3 +76,32 @@ ggplot() +
     color = "yellow",
     size = 4
   )
+
+
+
+
+## GBIF Occurrences
+
+occurrences_gbif <- read.table(file = "Work/a-tumida-sdd/occurrence-data/0002269-180920211646547.csv", header = TRUE, dec = ".", sep = "\t")
+occurrences_gbif <- occurrences_gbif[, c("species", "decimallatitude", "decimallongitude")]
+
+world <- map_data("world")
+
+ggplot() +
+  geom_polygon(
+    data = world,
+    aes(x=long, y = lat, group = group)
+  ) + 
+  coord_fixed(1.3) +
+  geom_point(
+    data = occurrences_gbif,
+    aes(x = decimallongitude, y = decimallatitude),
+    color = "black",
+    size = 5
+  ) +
+  geom_point(
+    data = occurrences_gbif,
+    aes(x = decimallongitude, y = decimallatitude),
+    color = "yellow",
+    size = 4
+  )
