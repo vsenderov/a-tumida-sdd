@@ -1,6 +1,8 @@
+https://www.molecularecologist.com/2013/04/species-distribution-models-in-r/
+
 *BIO1 = Annual Mean Temperature = СРЕДНА ГОДИШНА ТЕМПЕРАТУРА
 
-*BIO4 = Temperature Seasonality (standard deviation *100) = СЕЗОНАЛНОСТ НА ТЕМПЕРАТУРА (СТАНДАРТНО ОТКЛОНЕНИЕ * 100)
+BIO4 = Temperature Seasonality (standard deviation *100) = СЕЗОНАЛНОСТ НА ТЕМПЕРАТУРА (СТАНДАРТНО ОТКЛОНЕНИЕ * 100)
 
 *BIO5 = Max Temperature of Warmest Month = МАКСИМАЛНА ТЕМПЕРАТУРА НА НАЙ-ГОРЕЩИЯ МЕСЕЦ
 
@@ -8,14 +10,19 @@
 
 *BIO12 = Annual Precipitation = ОБЩО ГОДИШНИ ВАЛЕЖИ
 
-*BIO13 = Precipitation of Wettest Month = ВАЛЕЖИ ПРЕЗ НАЙ-ВЛАЖЕН МЕСЕЦ
-
-*BIO14 = Precipitation of Driest Month = ВАЛЕЖИ ПРЕЗ НАЙ-СУХ МЕСЕЦ
+BIO13 = Precipitation of Wettest Month = ВАЛЕЖИ ПРЕЗ НАЙ-ВЛАЖЕН МЕСЕЦ
+BIO14 = Precipitation of Driest Month = ВАЛЕЖИ ПРЕЗ НАЙ-СУХ МЕСЕЦ
 
 *BIO15 = Precipitation Seasonality (Coefficient of Variation) = СЕЗОНАЛНОСТ ВАЛЕЖА (ВАРИАЦИЯ)
 
 
+Soil: 2014-2018
+average
+min
+max
 
+
+``
 BIO7 = Temperature Annual Range (BIO5-BIO6) = ДИАПАЗОН НА ГОДИШНАТА ТЕМПЕРАТУРА (П5 - П6)
 
 BIO8 = Mean Temperature of Wettest Quarter = СРЕДНА ТЕМПЕРАТУРА НА ЧЕТИРИМЕСЕЧИЕТО, ПРЕЗ КОЕТО ИМА НАЙ-МНОГО ВАЛЕЖИ
