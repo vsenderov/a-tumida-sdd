@@ -94,6 +94,7 @@ occurrences_maxent = data.frame(rep("aetina_tumida", length(occurrences_gbif[[3]
 names(occurrences_maxent)=c("species", "dd_long", "dd_lat")
 write.csv(file = "maxent-input/gbif.csv", occurrences_maxent, quote = FALSE, row.names=FALSE)
 
+
 world <- map_data("world")
 
 ggplot() +
@@ -114,6 +115,7 @@ ggplot() +
     color = "yellow",
     size = 4
   )
+<<<<<<< HEAD
 
 
 # Soil Moisture Data
@@ -143,3 +145,5 @@ five_year_min <-min(day_moisture_data_stack, na.rm = TRUE)
 
 writeRaster(x=five_year_min, filename="5year-moisture-min.asc", format="ascii")
 save(five_year_average, five_year_max, five_year_min, file = "moisture-data.Rdata")
+=======
+>>>>>>> 5c231933524eb43f0e7ebe870463fd20fe57ba96
