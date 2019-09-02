@@ -70,3 +70,31 @@ BIO3 = изотермалност
 18 = валеж през най-топло тримесеч.
 19 = валеж през най-студено тримесе.
 
+
+
+Модели, които сме опитали
+
+analiz : 
+
+
+Variable	Percent contribution	Permutation importance
+bioclim_12   	56.2	31.4 (годишен валеж)
+bioclim_5	16.7	13.4 (най-топыл месец)
+bioclim_15	10.9	22.8 (сезоналност валеж)
+bioclim_1	9.3	22.6 (средна темп)
+bioclim_6	4	6.9  (мнай-студен мец)
+soil-min	1.5	1.5 (почва)
+soil-mean	1.1	0.8
+soil-max	0.2	0.6
+
+analiz2
+
+Variable	Percent contribution	Permutation importance
+bioclim_1	43.7	11.6
+soil-mean	25.5	24.4
+bioclim_5	21.8	42.1
+bioclim_6	5.2	19.3
+soil-min	2.7	1.4
+soil-max	1	1.2
+
+

@@ -115,7 +115,6 @@ ggplot() +
     color = "yellow",
     size = 4
   )
-<<<<<<< HEAD
 
 
 # Soil Moisture Data
@@ -124,26 +123,29 @@ library(raster)
 
 soil_moisture_data_dir <- "/home/viktor/Data/soil-moisture"
 years <- c(2014, 2015, 2016, 2017, 2018)
-
 netcdf_sources <- list.files(paste(soil_moisture_data_dir, years, sep = "/"), full.names = TRUE)
-
 day_moisture_data <- lapply(netcdf_sources, raster, varname = "sm")
-
-five_year_average <- do.call(mean, c(day_moisture_data, na.rm=TRUE))
-
-writeRaster(x=five_year_average, filename="5year-moisture-mean.asc", format="ascii")
-save(five_year_average, file = "moisture-data.Rdata")
-
-
 day_moisture_data_stack = stack(netcdf_sources, varname="sm")
-five_year_max <-max(day_moisture_data_stack, na.rm = TRUE)
 
-writeRaster(x=five_year_max, filename="5year-moisture-max.asc", format="ascii")
-save(five_year_average, five_year_max, file = "moisture-data.Rdata")
+soil_mean = mean(day_moisture_data_stack, na.rm = TRUE)
+soil_max <-  max(day_moisture_data_stack, na.rm = TRUE)
+soil_min <  -min(day_moisture_data_stack, na.rm = TRUE)
 
-five_year_min <-min(day_moisture_data_stack, na.rm = TRUE)
+e = extent(-180, 180, -60, 90)
 
-writeRaster(x=five_year_min, filename="5year-moisture-min.asc", format="ascii")
-save(five_year_average, five_year_max, five_year_min, file = "moisture-data.Rdata")
-=======
->>>>>>> 5c231933524eb43f0e7ebe870463fd20fe57ba96
+soil_mean = crop(soil_mean, e)
+soil_max = crop(soil_max, e)
+soil_min = crop(soil_min, e)
+
+writeRaster(x=soil_mean, filename="env-var/soil-mean.asc", format="ascii")
+
+writeRaster(x=soil_min, filename="env-var/soil-min.asc", format="ascii")
+
+writeRaster(x=soil_max, filename="env-var/soil-max.asc", format="ascii")
+
+# World clim data
+
+BClim = resample(getData("worldclim", var="bio", res=10, path="env-var/"),
+                 soil_mean)
+ 
+save(soil_mean, soil_max, soil_min, BClim, file = "env-var/environment-data.Rdata")
