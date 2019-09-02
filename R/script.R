@@ -116,13 +116,13 @@ ggplot() +
     size = 4
   )
 
-
 # Soil Moisture Data
 
 library(raster)
 
 soil_moisture_data_dir <- "/home/viktor/Data/soil-moisture"
 years <- c(2014, 2015, 2016, 2017, 2018)
+
 netcdf_sources <- list.files(paste(soil_moisture_data_dir, years, sep = "/"), full.names = TRUE)
 day_moisture_data <- lapply(netcdf_sources, raster, varname = "sm")
 day_moisture_data_stack = stack(netcdf_sources, varname="sm")
