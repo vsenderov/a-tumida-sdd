@@ -1,0 +1,683 @@
+Mon Sep 02 11:58:53 CEST 2019
+MaxEnt version 3.4.1
+Checking header of /home/viktor/Dropbox/Work/20p/a-tumida-sdd/env-var/bioclim_1.asc
+Checking header of /home/viktor/Dropbox/Work/20p/a-tumida-sdd/env-var/bioclim_5.asc
+Checking header of /home/viktor/Dropbox/Work/20p/a-tumida-sdd/env-var/bioclim_6.asc
+Checking header of /home/viktor/Dropbox/Work/20p/a-tumida-sdd/env-var/soil-max.asc
+Checking header of /home/viktor/Dropbox/Work/20p/a-tumida-sdd/env-var/soil-mean.asc
+Checking header of /home/viktor/Dropbox/Work/20p/a-tumida-sdd/env-var/soil-min.asc
+Reading samples from A-tumida-occurrences-World+Italy+GBIF.maxent
+Read samples: max memory 477626368, total allocated 124780544, free 110077096, used 14703448, increment 14703448
+Warning: Sample at 0.0, 0.0 in A-tumida-occurrences-World+Italy+GBIF.maxent is outside the bounding box of environmental data, skipping
+Time since start: 1.957
+Extractor: max memory 477626368, total allocated 124780544, free 101624144, used 23156400, increment 8452952
+Extracting random background and sample data
+Warning: Sample at -82.040714, 43.052709 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at -82.040714, 43.052709
+Warning: Sample at -82.885759, 42.311797 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at -82.885759, 42.311797
+Warning: Sample at -83.108698, 42.101378 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at -83.108698, 42.101378
+Warning: Sample at -83.102477, 42.235541 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at -83.102477, 42.235541
+Warning: Sample at -82.233038, 42.240958 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at -82.233038, 42.240958
+Warning: Sample at 16.2213055555556, 39.1351194444444 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 16.2213055555556, 39.1351194444444
+Warning: Sample at 16.2213055555556, 39.1351194444444 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 16.2213055555556, 39.1351194444444
+Warning: Sample at 16.22195, 39.1356555555556 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 16.22195, 39.1356555555556
+Warning: Sample at 16.22195, 39.1356555555556 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 16.22195, 39.1356555555556
+Warning: Sample at 16.2480944444444, 39.1678638888889 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 16.2480944444444, 39.1678638888889
+Warning: Sample at 15.9357777777778, 38.5540361111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.9357777777778, 38.5540361111111
+Warning: Sample at 15.9357777777778, 38.5540361111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.9357777777778, 38.5540361111111
+Warning: Sample at 15.9357777777778, 38.5540361111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.9357777777778, 38.5540361111111
+Warning: Sample at 15.9357777777778, 38.5540361111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.9357777777778, 38.5540361111111
+Warning: Sample at 15.9357777777778, 38.5540361111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.9357777777778, 38.5540361111111
+Warning: Sample at 15.9357777777778, 38.5540361111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.9357777777778, 38.5540361111111
+Warning: Sample at 15.9357777777778, 38.5540361111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.9357777777778, 38.5540361111111
+Warning: Sample at 15.9357777777778, 38.5540361111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.9357777777778, 38.5540361111111
+Warning: Sample at 15.9357777777778, 38.5540361111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.9357777777778, 38.5540361111111
+Warning: Sample at 15.9357777777778, 38.5540361111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.9357777777778, 38.5540361111111
+Warning: Sample at 15.9357777777778, 38.5540361111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.9357777777778, 38.5540361111111
+Warning: Sample at 15.9357777777778, 38.5540361111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.9357777777778, 38.5540361111111
+Warning: Sample at 15.9357777777778, 38.5540361111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.9357777777778, 38.5540361111111
+Warning: Sample at 15.9357777777778, 38.5540361111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.9357777777778, 38.5540361111111
+Warning: Sample at 15.9357777777778, 38.5540361111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.9357777777778, 38.5540361111111
+Warning: Sample at 15.9357777777778, 38.5540361111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.9357777777778, 38.5540361111111
+Warning: Sample at 15.9357777777778, 38.5540361111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.9357777777778, 38.5540361111111
+Warning: Sample at 15.9357777777778, 38.5540361111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.9357777777778, 38.5540361111111
+Warning: Sample at 15.9357777777778, 38.5540361111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.9357777777778, 38.5540361111111
+Warning: Sample at 15.9357777777778, 38.5540361111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.9357777777778, 38.5540361111111
+Warning: Sample at 15.9357777777778, 38.5540361111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.9357777777778, 38.5540361111111
+Warning: Sample at 15.6449944444444, 38.4880583333333 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.6449944444444, 38.4880583333333
+Warning: Sample at 15.6449944444444, 38.4880583333333 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.6449944444444, 38.4880583333333
+Warning: Sample at 15.6449944444444, 38.4880583333333 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.6449944444444, 38.4880583333333
+Warning: Sample at 15.6449944444444, 38.4880583333333 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.6449944444444, 38.4880583333333
+Warning: Sample at 15.6449944444444, 38.4880583333333 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.6449944444444, 38.4880583333333
+Warning: Sample at 15.6449944444444, 38.4880583333333 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.6449944444444, 38.4880583333333
+Warning: Sample at 15.6449944444444, 38.4880583333333 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.6449944444444, 38.4880583333333
+Warning: Sample at 15.6449944444444, 38.4880583333333 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.6449944444444, 38.4880583333333
+Warning: Sample at 15.7173583333333, 38.2520333333333 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7173583333333, 38.2520333333333
+Warning: Sample at 15.7454694444444, 38.100525 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454694444444, 38.100525
+Warning: Sample at 15.7454694444444, 38.100525 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454694444444, 38.100525
+Warning: Sample at 15.7454694444444, 38.100525 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454694444444, 38.100525
+Warning: Sample at 15.7454694444444, 38.100525 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454694444444, 38.100525
+Warning: Sample at 15.7454694444444, 38.100525 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454694444444, 38.100525
+Warning: Sample at 15.7454694444444, 38.100525 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454694444444, 38.100525
+Warning: Sample at 15.6789388888889, 38.243675 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.6789388888889, 38.243675
+Warning: Sample at 15.6789388888889, 38.243675 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.6789388888889, 38.243675
+Warning: Sample at 15.6788027777778, 38.1026833333333 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.6788027777778, 38.1026833333333
+Warning: Sample at 15.6788027777778, 38.1026833333333 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.6788027777778, 38.1026833333333
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.7454666666667, 38.1026861111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.7454666666667, 38.1026861111111
+Warning: Sample at 15.9744666666667, 38.2434361111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.9744666666667, 38.2434361111111
+Warning: Sample at 15.9744666666667, 38.2434361111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.9744666666667, 38.2434361111111
+Warning: Sample at 15.9744666666667, 38.2434361111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.9744666666667, 38.2434361111111
+Warning: Sample at 15.9744666666667, 38.2434361111111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.9744666666667, 38.2434361111111
+Warning: Sample at 15.9748083333333, 38.2430666666667 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.9748083333333, 38.2430666666667
+Warning: Sample at 15.9748083333333, 38.2430666666667 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.9748083333333, 38.2430666666667
+Warning: Sample at 15.9748083333333, 38.2430666666667 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.9748083333333, 38.2430666666667
+Warning: Sample at 15.9748083333333, 38.2430666666667 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.9748083333333, 38.2430666666667
+Warning: Sample at 15.9748083333333, 38.2430666666667 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.9748083333333, 38.2430666666667
+Warning: Sample at 15.9748083333333, 38.2430666666667 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.9748083333333, 38.2430666666667
+Warning: Sample at 15.9748083333333, 38.2430666666667 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.9748083333333, 38.2430666666667
+Warning: Sample at 15.9748083333333, 38.2430666666667 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.9748083333333, 38.2430666666667
+Warning: Sample at -82.366596, 23.113592 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at -82.366596, 23.113592
+Warning: Sample at -81.532215, 23.03034 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at -81.532215, 23.03034
+Warning: Sample at -82.911803, 22.816568 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at -82.911803, 22.816568
+Warning: Sample at -155.665857, 19.542915 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at -155.665857, 19.542915
+Warning: Sample at -155.073765, 19.653754 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at -155.073765, 19.653754
+Warning: Sample at -88.396754, 18.40308 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at -88.396754, 18.40308
+Warning: Sample at -88.396754, 18.40308 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at -88.396754, 18.40308
+Warning: Sample at -88.142559, 18.354812 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at -88.142559, 18.354812
+Warning: Sample at -86.872215, 12.114993 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at -86.872215, 12.114993
+Warning: Sample at -86.05296, 11.955006 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at -86.05296, 11.955006
+Warning: Sample at -85.63064, 11.070827 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at -85.63064, 11.070827
+Warning: Sample at -85.413051, 11.066564 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at -85.413051, 11.066564
+Warning: Sample at 20.939444, 6.611111 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 20.939444, 6.611111
+Warning: Sample at 15.827659, -0.228021 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 15.827659, -0.228021
+Warning: Sample at 21.758664, -4.038333 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at 21.758664, -4.038333
+Warning: Sample at -43.172896, -22.906847 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at -43.172896, -22.906847
+Warning: Sample at -46.396136, -23.960745 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at -46.396136, -23.960745
+Warning: Sample at -46.326409, -23.95613 in A-tumida-occurrences-World+Italy+GBIF.maxent is missing some environmental data (e.g. soil-max)
+Warning: Skipping sample at -46.326409, -23.95613
+Time since start: 3.88
+209280 points with values for all grids
+Adding samples to background in feature space
+Command line used: 
+Command line to repeat: java density.MaxEnt nowarnings noprefixes responsecurves jackknife outputdirectory=/home/viktor/Temp/analiz3 samplesfile=/home/viktor/Dropbox/Work/20p/a-tumida-sdd/maxent-input/A-tumida-occurrences-World+Italy+GBIF.maxent environmentallayers=/home/viktor/Dropbox/Work/20p/a-tumida-sdd/env-var -N bioclim_10 -N bioclim_11 -N bioclim_12 -N bioclim_13 -N bioclim_14 -N bioclim_15 -N bioclim_16 -N bioclim_17 -N bioclim_18 -N bioclim_19 -N bioclim_2 -N bioclim_3 -N bioclim_4 -N bioclim_7 -N bioclim_8 -N bioclim_9
+Species: aetina_tumida
+Layers: bioclim_1 bioclim_5 bioclim_6 soil-max soil-mean soil-min
+Layertypes: Continuous Continuous Continuous Continuous Continuous Continuous
+responsecurves: true
+jackknife: true
+outputdirectory: /home/viktor/Temp/analiz3
+samplesfile: /home/viktor/Dropbox/Work/20p/a-tumida-sdd/maxent-input/A-tumida-occurrences-World+Italy+GBIF.maxent
+environmentallayers: /home/viktor/Dropbox/Work/20p/a-tumida-sdd/env-var
+
+getSamples: max memory 477626368, total allocated 124780544, free 94388704, used 30391840, increment 7235440
+Making features
+makeFeatures: max memory 477626368, total allocated 124780544, free 91894640, used 32885904, increment 2494064
+aetina_tumida: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+120 samples
+Density: max memory 477626368, total allocated 124780544, free 99282608, used 25497936, increment -7387968
+linearPredictor: max memory 477626368, total allocated 124780544, free 99201664, used 25578880, increment 80944
+FeaturedSpace: max memory 477626368, total allocated 124780544, free 99201664, used 25578880, increment 0
+Sequential: max memory 477626368, total allocated 124780544, free 99201664, used 25578880, increment 0
+Initial loss: 9.221873607789856
+Time since start: 18.611
+500: time = 14.035000 loss = 8.264732
+Resulting gain: 0.9571415983810763
+Projecting...
+Writing file /home/viktor/Temp/analiz3/aetina_tumida.asc
+Time since start: 20.976
+Writing /home/viktor/Temp/analiz3/plots/aetina_tumida.png
+aetina_tumida response curves
+Time since start: 22.045
+Response curve: only bioclim_1
+Making features
+makeFeatures: max memory 477626368, total allocated 174063616, free 99847408, used 74216208, increment 48637328
+aetina_tumida bioclim_1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+120 samples
+Density: max memory 477626368, total allocated 174063616, free 97415176, used 76648440, increment 2432232
+linearPredictor: max memory 477626368, total allocated 174063616, free 97415176, used 76648440, increment 0
+FeaturedSpace: max memory 477626368, total allocated 174063616, free 97415176, used 76648440, increment 0
+Sequential: max memory 477626368, total allocated 174063616, free 97415176, used 76648440, increment 0
+Initial loss: 9.221873607789856
+Time since start: 25.287
+500: time = 3.171000 loss = 8.724373
+Resulting gain: 0.4975003692292219
+aetina_tumida response curves
+Response curve: only bioclim_5
+Making features
+makeFeatures: max memory 477626368, total allocated 153092096, free 60252408, used 92839688, increment 16191248
+aetina_tumida bioclim_5: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+120 samples
+Density: max memory 477626368, total allocated 153092096, free 58220928, used 94871168, increment 2031480
+linearPredictor: max memory 477626368, total allocated 153092096, free 58220928, used 94871168, increment 0
+FeaturedSpace: max memory 477626368, total allocated 153092096, free 58220928, used 94871168, increment 0
+Sequential: max memory 477626368, total allocated 153092096, free 58220928, used 94871168, increment 0
+Initial loss: 9.221873607789856
+Time since start: 27.001
+240: time = 1.593000 loss = 8.626074
+Resulting gain: 0.5957991310362534
+aetina_tumida response curves
+Response curve: only bioclim_6
+Making features
+makeFeatures: max memory 477626368, total allocated 141557760, free 94315656, used 47242104, increment -47629064
+aetina_tumida bioclim_6: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+120 samples
+Density: max memory 477626368, total allocated 141557760, free 92487776, used 49069984, increment 1827880
+linearPredictor: max memory 477626368, total allocated 141557760, free 92487776, used 49069984, increment 0
+FeaturedSpace: max memory 477626368, total allocated 141557760, free 92487776, used 49069984, increment 0
+Sequential: max memory 477626368, total allocated 141557760, free 92487776, used 49069984, increment 0
+Initial loss: 9.221873607789856
+Time since start: 28.957
+220: time = 1.830000 loss = 8.818549
+Resulting gain: 0.4033242883970729
+aetina_tumida response curves
+Response curve: only soil-max
+Making features
+makeFeatures: max memory 477626368, total allocated 134217728, free 36132200, used 98085528, increment 49015544
+aetina_tumida soil-max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+120 samples
+Density: max memory 477626368, total allocated 134217728, free 32645424, used 101572304, increment 3486776
+linearPredictor: max memory 477626368, total allocated 134217728, free 32645424, used 101572304, increment 0
+FeaturedSpace: max memory 477626368, total allocated 134217728, free 32645424, used 101572304, increment 0
+Sequential: max memory 477626368, total allocated 134217728, free 32645424, used 101572304, increment 0
+Initial loss: 9.221873607789856
+Time since start: 30.638
+180: time = 1.584000 loss = 8.938834
+Resulting gain: 0.2830399379660591
+aetina_tumida response curves
+Response curve: only soil-mean
+Making features
+makeFeatures: max memory 477626368, total allocated 120586240, free 20900088, used 99686152, increment -1886152
+aetina_tumida soil-mean: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+120 samples
+Density: max memory 477626368, total allocated 120586240, free 19461552, used 101124688, increment 1438536
+linearPredictor: max memory 477626368, total allocated 120586240, free 19461552, used 101124688, increment 0
+FeaturedSpace: max memory 477626368, total allocated 120586240, free 19461552, used 101124688, increment 0
+Sequential: max memory 477626368, total allocated 120586240, free 19461552, used 101124688, increment 0
+Initial loss: 9.221873607789856
+Time since start: 33.048
+260: time = 2.324000 loss = 8.957523
+Resulting gain: 0.264351019918573
+aetina_tumida response curves
+Response curve: only soil-min
+Making features
+makeFeatures: max memory 477626368, total allocated 155713536, free 26241296, used 129472240, increment 28347552
+aetina_tumida soil-min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+120 samples
+Density: max memory 477626368, total allocated 155713536, free 25975664, used 129737872, increment 265632
+linearPredictor: max memory 477626368, total allocated 155713536, free 25894720, used 129818816, increment 80944
+FeaturedSpace: max memory 477626368, total allocated 155713536, free 25894720, used 129818816, increment 0
+Sequential: max memory 477626368, total allocated 155713536, free 25894720, used 129818816, increment 0
+Initial loss: 9.221873607789856
+Time since start: 34.596
+160: time = 1.446000 loss = 9.107052
+Resulting gain: 0.1148214998341448
+aetina_tumida response curves
+Jackknife: leave bioclim_1 out
+Making features
+makeFeatures: max memory 477626368, total allocated 141557760, free 49140896, used 92416864, increment -37401952
+aetina_tumida bioclim_1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+120 samples
+Density: max memory 477626368, total allocated 141557760, free 43229952, used 98327808, increment 5910944
+linearPredictor: max memory 477626368, total allocated 141557760, free 43229952, used 98327808, increment 0
+FeaturedSpace: max memory 477626368, total allocated 141557760, free 43229952, used 98327808, increment 0
+Sequential: max memory 477626368, total allocated 141557760, free 43229952, used 98327808, increment 0
+Initial loss: 9.221873607789856
+Time since start: 47.716
+500: time = 12.513000 loss = 8.263869
+Jackknife: leave bioclim_5 out
+Making features
+makeFeatures: max memory 477626368, total allocated 150470656, free 41997680, used 108472976, increment 10145168
+aetina_tumida bioclim_5: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+120 samples
+Density: max memory 477626368, total allocated 150470656, free 33762008, used 116708648, increment 8235672
+linearPredictor: max memory 477626368, total allocated 150470656, free 33762008, used 116708648, increment 0
+FeaturedSpace: max memory 477626368, total allocated 150470656, free 33762008, used 116708648, increment 0
+Sequential: max memory 477626368, total allocated 150470656, free 33762008, used 116708648, increment 0
+Initial loss: 9.221873607789856
+Time since start: 60.356
+500: time = 12.554000 loss = 8.371492
+Jackknife: leave bioclim_6 out
+Making features
+makeFeatures: max memory 477626368, total allocated 143654912, free 105114040, used 38540872, increment -78167776
+aetina_tumida bioclim_6: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+120 samples
+Density: max memory 477626368, total allocated 143654912, free 96581328, used 47073584, increment 8532712
+linearPredictor: max memory 477626368, total allocated 143654912, free 96581328, used 47073584, increment 0
+FeaturedSpace: max memory 477626368, total allocated 143654912, free 96581328, used 47073584, increment 0
+Sequential: max memory 477626368, total allocated 143654912, free 96581328, used 47073584, increment 0
+Initial loss: 9.221873607789856
+Time since start: 72.678
+500: time = 12.229000 loss = 8.297032
+Jackknife: leave soil-max out
+Making features
+makeFeatures: max memory 477626368, total allocated 178782208, free 103634920, used 75147288, increment 28073704
+aetina_tumida soil-max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+120 samples
+Density: max memory 477626368, total allocated 178782208, free 96488256, used 82293952, increment 7146664
+linearPredictor: max memory 477626368, total allocated 178782208, free 96488256, used 82293952, increment 0
+FeaturedSpace: max memory 477626368, total allocated 178782208, free 96488256, used 82293952, increment 0
+Sequential: max memory 477626368, total allocated 178782208, free 96488256, used 82293952, increment 0
+Initial loss: 9.221873607789856
+Time since start: 84.267
+500: time = 11.508000 loss = 8.271869
+Jackknife: leave soil-mean out
+Making features
+makeFeatures: max memory 477626368, total allocated 142606336, free 28001096, used 114605240, increment 32311288
+aetina_tumida soil-mean: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+120 samples
+Density: max memory 477626368, total allocated 139984896, free 96208256, used 43776640, increment -70828600
+linearPredictor: max memory 477626368, total allocated 139984896, free 96208256, used 43776640, increment 0
+FeaturedSpace: max memory 477626368, total allocated 139984896, free 96208256, used 43776640, increment 0
+Sequential: max memory 477626368, total allocated 139984896, free 96208256, used 43776640, increment 0
+Initial loss: 9.221873607789856
+Time since start: 95.725
+500: time = 11.368000 loss = 8.330895
+Jackknife: leave soil-min out
+Making features
+makeFeatures: max memory 477626368, total allocated 148373504, free 64103976, used 84269528, increment 40492888
+aetina_tumida soil-min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+120 samples
+Density: max memory 477626368, total allocated 148373504, free 58285112, used 90088392, increment 5818864
+linearPredictor: max memory 477626368, total allocated 148373504, free 56478432, used 91895072, increment 1806680
+FeaturedSpace: max memory 477626368, total allocated 148373504, free 56478432, used 91895072, increment 0
+Sequential: max memory 477626368, total allocated 148373504, free 56478432, used 91895072, increment 0
+Initial loss: 9.221873607789856
+Time since start: 107.374
+500: time = 11.572000 loss = 8.279183
+Jackknife: only bioclim_1
+Making features
+makeFeatures: max memory 477626368, total allocated 144179200, free 13119992, used 131059208, increment 39164136
+aetina_tumida bioclim_1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+120 samples
+Density: max memory 477626368, total allocated 141557760, free 91034256, used 50523504, increment -80535704
+linearPredictor: max memory 477626368, total allocated 141557760, free 91034256, used 50523504, increment 0
+FeaturedSpace: max memory 477626368, total allocated 141557760, free 91034256, used 50523504, increment 0
+Sequential: max memory 477626368, total allocated 141557760, free 91034256, used 50523504, increment 0
+Initial loss: 9.221873607789856
+Time since start: 110.194
+500: time = 2.800000 loss = 8.724373
+Res.gain: 0.4975003692292219
+Jackknife: only bioclim_5
+Making features
+makeFeatures: max memory 477626368, total allocated 124256256, free 68597160, used 55659096, increment 5135592
+aetina_tumida bioclim_5: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+120 samples
+Density: max memory 477626368, total allocated 124256256, free 67286736, used 56969520, increment 1310424
+linearPredictor: max memory 477626368, total allocated 124256256, free 67286736, used 56969520, increment 0
+FeaturedSpace: max memory 477626368, total allocated 124256256, free 67286736, used 56969520, increment 0
+Sequential: max memory 477626368, total allocated 124256256, free 67286736, used 56969520, increment 0
+Initial loss: 9.221873607789856
+Time since start: 111.627
+240: time = 1.407000 loss = 8.626074
+Res.gain: 0.5957991310362534
+Jackknife: only bioclim_6
+Making features
+makeFeatures: max memory 477626368, total allocated 132644864, free 31312792, used 101332072, increment 44362552
+aetina_tumida bioclim_6: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+120 samples
+Density: max memory 477626368, total allocated 132644864, free 29745320, used 102899544, increment 1567472
+linearPredictor: max memory 477626368, total allocated 132644864, free 29745320, used 102899544, increment 0
+FeaturedSpace: max memory 477626368, total allocated 132644864, free 29745320, used 102899544, increment 0
+Sequential: max memory 477626368, total allocated 132644864, free 29745320, used 102899544, increment 0
+Initial loss: 9.221873607789856
+Time since start: 113.321
+220: time = 1.669000 loss = 8.818549
+Res.gain: 0.4033242883970729
+Jackknife: only soil-max
+Making features
+makeFeatures: max memory 477626368, total allocated 154664960, free 93885968, used 60778992, increment -42120552
+aetina_tumida soil-max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+120 samples
+Density: max memory 477626368, total allocated 154664960, free 92015952, used 62649008, increment 1870016
+linearPredictor: max memory 477626368, total allocated 154664960, free 92015952, used 62649008, increment 0
+FeaturedSpace: max memory 477626368, total allocated 154664960, free 92015952, used 62649008, increment 0
+Sequential: max memory 477626368, total allocated 154664960, free 92015952, used 62649008, increment 0
+Initial loss: 9.221873607789856
+Time since start: 115.17
+180: time = 1.820000 loss = 8.938834
+Res.gain: 0.2830399379660591
+Jackknife: only soil-mean
+Making features
+makeFeatures: max memory 477626368, total allocated 188743680, free 77127128, used 111616552, increment 48967544
+aetina_tumida soil-mean: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+120 samples
+Density: max memory 477626368, total allocated 188743680, free 77099048, used 111644632, increment 28080
+linearPredictor: max memory 477626368, total allocated 188743680, free 77018104, used 111725576, increment 80944
+FeaturedSpace: max memory 477626368, total allocated 188743680, free 77018104, used 111725576, increment 0
+Sequential: max memory 477626368, total allocated 188743680, free 77018104, used 111725576, increment 0
+Initial loss: 9.221873607789856
+Time since start: 117.212
+260: time = 2.019000 loss = 8.957523
+Res.gain: 0.264351019918573
+Jackknife: only soil-min
+Making features
+makeFeatures: max memory 477626368, total allocated 167772160, free 69134456, used 98637704, increment -13087872
+aetina_tumida soil-min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+120 samples
+Density: max memory 477626368, total allocated 167772160, free 66995720, used 100776440, increment 2138736
+linearPredictor: max memory 477626368, total allocated 167772160, free 66995720, used 100776440, increment 0
+FeaturedSpace: max memory 477626368, total allocated 167772160, free 66995720, used 100776440, increment 0
+Sequential: max memory 477626368, total allocated 167772160, free 66995720, used 100776440, increment 0
+Initial loss: 9.221873607789856
+Time since start: 118.249
+160: time = 1.021000 loss = 9.107052
+Res.gain: 0.1148214998341448
+Ending
