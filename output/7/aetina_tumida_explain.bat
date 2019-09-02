@@ -1,1 +1,0 @@
-java -mx500m -cp "/home/viktor/Programs/maxent/maxent.jar:maxent.jar" density.Explain -l /home/viktor/Temp/analiz7/aetina_tumida.lambdas -c /home/viktor/Temp/analiz7/aetina_tumida.asc /home/viktor/Dropbox/Work/20p/a-tumida-sdd/env-var
