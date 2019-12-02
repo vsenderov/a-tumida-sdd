@@ -1,30 +1,30 @@
 
 # Table of Contents
 
-1.  [Species Distribution Modeling of the Beetle <span class="underline">A. tumida</span>](#org7dfcba7)
-    1.  [Literature](#orgce35690)
-    2.  [Introduction](#orgea6a7ae)
-    3.  [Review by Martin G.](#orgd20de6a)
-    4.  [Записки (Bulgarian)](#orgabb8b5d)
-    5.  [Models](#org03c6370)
-        1.  [M1](#orgbe1685e)
-        2.  [M2](#org6179836)
-    6.  [Какво трябва да се направи?](#orgfd6eebe)
+1.  [Species Distribution Modeling of the Beetle <span class="underline">A. tumida</span>](#org1c64cd9)
+    1.  [Literature](#org1aa1437)
+    2.  [Introduction](#org331134f)
+    3.  [Review by Martin G.](#orgb21b905)
+    4.  [Записки (Bulgarian)](#org9c2d203)
+    5.  [Models](#orgd7ea5b8)
+        1.  [M1](#org7140458)
+        2.  [M2](#org6a99ad3)
+    6.  [Какво трябва да се направи?](#orgb0e8524)
 
 
-<a id="org7dfcba7"></a>
+<a id="org1c64cd9"></a>
 
 # Species Distribution Modeling of the Beetle <span class="underline">A. tumida</span>
 
 
-<a id="orgce35690"></a>
+<a id="org1aa1437"></a>
 
 ## Literature
 
 <https://www.molecularecologist.com/2013/04/species-distribution-models-in-r/>
 
 
-<a id="orgea6a7ae"></a>
+<a id="org331134f"></a>
 
 ## Introduction
 
@@ -41,7 +41,7 @@ The soil moisture data is summarized as maximum, minimum, and average over the l
 We have run several analyses, which are compressed in the \`output\` folder.
 
 
-<a id="orgd20de6a"></a>
+<a id="orgb21b905"></a>
 
 ## Review by Martin G.
 
@@ -56,7 +56,7 @@ We have run several analyses, which are compressed in the \`output\` folder.
 5.  Once you have selected the climate variables based on my previous recommendations, you can eventually test for the predictive power of different combinations of climate descriptors and select the climate dataset that shows the best predictive power. This step is not mandatory but could be helpfull.
 
 
-<a id="orgabb8b5d"></a>
+<a id="org9c2d203"></a>
 
 ## Записки (Bulgarian)
 
@@ -80,12 +80,12 @@ We have run several analyses, which are compressed in the \`output\` folder.
 Първият модел включва БИО5,6,10,11,13,14,16,17,почва макс и почва мин, а вторият прехва от първия модел 11,13,5,6,и 14, защото са много близки до другите променливи. На базата със QGIS (безплатна програма) на тях направих следната карта (също в хранилището).
 
 
-<a id="org03c6370"></a>
+<a id="orgd7ea5b8"></a>
 
 ## Models
 
 
-<a id="orgbe1685e"></a>
+<a id="org7140458"></a>
 
 ### M1
 
@@ -123,7 +123,7 @@ BIO18 = Precipitation of Warmest Quarter = валежи най-топло 4м
 BIO19 = Precipitation of Coldest Quarter = валежи най-студено 4М
 
 
-<a id="org6179836"></a>
+<a id="org6a99ad3"></a>
 
 ### M2
 
@@ -136,26 +136,11 @@ We ranked the variables in order of importance produced by MaxEnt and then used 
 -   BIO14 because correlation with BIO17 > 0.7
 
 
-<a id="orgfd6eebe"></a>
+<a id="orgb0e8524"></a>
 
 ## Какво трябва да се направи?
 
-1.  да се намерят данни за влага и температура на почвата (евентуално от
-
-2.да се добавят нови данни за Италия за местонаходиша
-
-1.  да изпълни моделът с
-    1, 5, 6 (за температура)
-
-и годишен валеж (12)
-и данните за влажност и темп. на почвата
-
-1.  Оформление на резултатите
-
-а) графика за света
-б) графика за Европа и Турция
-в) графика за българие
-д) Да се напише ръкопис на статията
-
-1.  Да помолим Андреа да погледне ръкописа
+Оформление на резултатите
+а) карти
+b) Да се напише ръкопис на статията
 
