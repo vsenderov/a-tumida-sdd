@@ -93,7 +93,6 @@ We ranked the variables in order of importance produced by MaxEnt and then used 
 - BIO11, - BIO5, - BIO6 because correlation with BIO10 > 0.7
 - BIO14 because correlation with BIO17 > 0.7
 
-
 ** Какво трябва да се направи?
 
 Оформление на резултатите
@@ -106,3 +105,15 @@ b) Да се напише ръкопис на статията
 
 
 
+
+** Notes
+
+*** <2020-07-15 Wed>
+- added more points
+- tried to run maxent model (M2) but for many points soil data was not present
+
+**** TODO Investigate why soil data not present and decide whether to use soil data
+
+**** TODO Evaluate model performance and perform final model selection
+
+**** TODO Email Martin for comments

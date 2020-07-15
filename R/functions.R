@@ -13,11 +13,17 @@
 #' maxent = "maxent-input//A-tumida-occurrences-Italy.maxent"
 #' )
 #' 
-dwc2maxent <- function(dwc, maxent, species = "aetina_tumida")
+dwc2maxent <- function(dwc, maxent, species = "aetina_tumida", decimal = FALSE)
 {
-  data <- read.csv2(file = dwc, encoding = "UTF-8")
-  data$decimalLatitude = as.numeric(sapply(data$verbatimLatitude, deg2dec))
-  data$decimalLongitude = as.numeric(sapply(data$verbatimLongitude, deg2dec))
+  data <- read.csv2(file = dwc, encoding = "UTF-8", stringsAsFactors = FALSE)
+  if(!decimal) {
+    data$decimalLatitude = as.numeric(sapply(data$verbatimLatitude, deg2dec))
+    data$decimalLongitude = as.numeric(sapply(data$verbatimLongitude, deg2dec))    
+  } else {
+    data$decimalLatitude = as.numeric(data$verbatimLatitude)
+    data$decimalLongitude =  as.numeric(data$verbatimLongitude)
+  }
+  
   data$scientificName = rep(x = species, times = nrow(data))
   data <- pk2df(data)
   

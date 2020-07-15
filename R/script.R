@@ -13,7 +13,13 @@ setwd("..")
 
 # Convert DwC CSV file to Maxent Format
 
+# New data
 
+dwc2maxent(
+  dwc = "occurrence-data-raw//A-tumida-new-data-2020.dwc.csv",
+  maxent = "samples//A-tumida-occurrences-new-data.maxent",
+  decimal = TRUE
+)
 
 # Italy
 
