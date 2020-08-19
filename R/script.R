@@ -21,6 +21,12 @@ dwc2maxent(
   decimal = TRUE
 )
 
+dwc2maxent(
+  dwc = "occurrence-data-raw//A-tumida-occurrences-Italy.csv",
+  maxent = "samples//test.maxent"
+)
+
+
 # Italy
 
 dwc2maxent(

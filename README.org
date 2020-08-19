@@ -1,34 +1,81 @@
-* Species Distribution Modeling of the Beetle _A. tumida_
+* Species Distribution Modeling of the Beetle _A. tumida_             :PAPER:
 
-** Literature
+** TODO Literature
 
 https://www.molecularecologist.com/2013/04/species-distribution-models-in-r/
 
-** Introduction
+- [ ] extend the literature section
+
+** TODO Introduction
 
 _Aetina tumida_ is an invasive beetle species that is a parasite on the honey bee, _Apis melifera_. Its original home is South Africa. It has already appeared in the U.S.A. and in parts of Europe (Italy). We are trying to model its future distribution using MaxEnt environmental niche modeling.
 
-We have compiled occurrsence data in the `samples` folder. Sources: Italian databases, GBIF.
+- [ ] citations
+
+We have compiled occurrsence data in the `samples` folder. Sources: Italian databases, GBIF, new data.
+
+- [ ] citations
 
 We have compiled environmental data in the `environmental-layers` folder. We have the 12 bioclimatic variables from htttp://bioclim.org and we also have soil moisture data downloaded form the European Space Agency (ESA).
 
 https://m.esa.int/Our_Activities/Observing_the_Earth/Space_for_our_climate/Nearly_four_decades_of_soil_moisture_data_now_available)
 
-The soil moisture data is summarized as maximum, minimum, and average over the last five years.
+Bioclimatic data has the following measurements:
+
+BIO1 = Annual Mean Temperature
+BIO2 = Mean Diurnal Range (Mean of monthly (max temp - min temp))
+BIO3 = Isothermality (BIO2/BIO7) (* 100)
+BIO4 = Temperature Seasonality (standard deviation *100)
+BIO5 = Max Temperature of Warmest Month
+BIO6 = Min Temperature of Coldest Month
+BIO7 = Temperature Annual Range (BIO5-BIO6)
+BIO8 = Mean Temperature of Wettest Quarter
+BIO9 = Mean Temperature of Driest Quarter
+BIO10 = Mean Temperature of Warmest Quarter
+BIO11 = Mean Temperature of Coldest Quarter
+BIO12 = Annual Precipitation
+BIO13 = Precipitation of Wettest Month
+BIO14 = Precipitation of Driest Month
+BIO15 = Precipitation Seasonality (Coefficient of Variation)
+BIO16 = Precipitation of Wettest Quarter
+BIO17 = Precipitation of Driest Quarter
+BIO18 = Precipitation of Warmest Quarter
+BIO19 = Precipitation of Coldest Quarter
+
+The soil moisture data is summarized as maximum, minimum, and average over five years.
+
+- [ ] link to summarization script, which years?
+
+Bioclim data has been downsampled to have the spatial resolution of the ESA data.
 
 We have run several analyses, which are compressed in the `output` folder.
 
-** Review by Martin G.
+** Modeling
 
-1) The most important is to select variables that are ecologically realistic: it means that the variable should have a likely importance on the ecology of the species.
+*** TODO Variable selection and model construction
+
+1) _The most important is to select variables that are ecologically realistic: it means that the variable should have a likely importance on the ecology of the species._
+
+We believe that in additional to temperature and precipation, soil moisture may be relevant to species because...
+
+- [ ] explanation of the biological relevance of variables
    
-2) Second, I advise to avoid the use of annual averages such as bio1 or bio12 in worldclim: Indeed, the average annual temperature does not reflect "stress" for the species. Actually two distinct localities with very different minimum and maximum temperatures could have the same annual average. Thus, my advise is to use minimal and maximal temperatures (such as bio 5, bio6, bio10 or bio 11) to really reflect putative physiological limits of the species. You can apply the same way of thinking to precipitation variables.
+2) _Second, I advise to avoid the use of annual averages such as bio1 or bio12 in worldclim: Indeed, the average annual temperature does not reflect "stress" for the species. Actually two distinct localities with very different minimum and maximum temperatures could have the same annual average. Thus, my advise is to use minimal and maximal temperatures (such as bio 5, bio6, bio10 or bio 11) to really reflect putative physiological limits of the species. You can apply the same way of thinking to precipitation variables._
+
+
 
 3) Please try to use non-correlated variables (Pearson correlation < 0.70 approx) because correlation can give spurious predictions.
 
+
 4) For invasive species range forecasting, my advise is to use a small descriptors dataset to enhance model transferability in other geographic regions: A model with too many variables will be overparametthe rized and then a bad predictor of worldwide distribution.
 
+preliminary variable selection based on criteria 1-4:
+
+13, 14, 15, 18, 19, 5, 6, soil-max, soil-min
+
 5) Once you have selected the climate variables based on my previous recommendations, you can eventually test for the predictive power of different combinations of climate descriptors and select the climate dataset that shows the best predictive power. This step is not mandatory but could be helpfull. 
+
+
 
 ** Записки (Bulgarian)
 

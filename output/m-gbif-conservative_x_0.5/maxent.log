@@ -1,0 +1,150 @@
+Fri Aug 14 15:10:24 CEST 2020
+MaxEnt version 3.4.1
+Checking header of /home/viktsend/Work/20p/a-tumida-sdd/environmental-layers/bioclim_13.asc
+Checking header of /home/viktsend/Work/20p/a-tumida-sdd/environmental-layers/bioclim_14.asc
+Checking header of /home/viktsend/Work/20p/a-tumida-sdd/environmental-layers/bioclim_15.asc
+Checking header of /home/viktsend/Work/20p/a-tumida-sdd/environmental-layers/bioclim_18.asc
+Checking header of /home/viktsend/Work/20p/a-tumida-sdd/environmental-layers/bioclim_19.asc
+Checking header of /home/viktsend/Work/20p/a-tumida-sdd/environmental-layers/bioclim_5.asc
+Checking header of /home/viktsend/Work/20p/a-tumida-sdd/environmental-layers/bioclim_6.asc
+Reading samples from A-tumida-occurrences-World+Italy+GBIF.csv
+Read samples: max memory 536870912, total allocated 526385152, free 284873496, used 241511656, increment 138933328
+Warning: Sample at 0.0, 0.0 in A-tumida-occurrences-World+Italy+GBIF.csv is outside the bounding box of environmental data, skipping
+Extractor: max memory 536870912, total allocated 526385152, free 280169232, used 246215920, increment 4704264
+Extracting random background and sample data
+265111 points with values for all grids
+Adding samples to background in feature space
+Command line used: 
+Command line to repeat: java density.MaxEnt nowarnings noprefixes responsecurves outputformat=logistic outputdirectory=/home/viktsend/Work/20p/a-tumida-sdd/output/m-gbif-conservative_x_0.5 samplesfile=/home/viktsend/Work/20p/a-tumida-sdd/samples/A-tumida-occurrences-World+Italy+GBIF.csv environmentallayers=/home/viktsend/Work/20p/a-tumida-sdd/environmental-layers betamultiplier=0.5 threshold -N bioclim_1 -N bioclim_10 -N bioclim_11 -N bioclim_12 -N bioclim_16 -N bioclim_17 -N bioclim_2 -N bioclim_3 -N bioclim_4 -N bioclim_7 -N bioclim_8 -N bioclim_9 -N soil-max -N soil-mean -N soil-min
+Species: aetina_tumida
+Layers: bioclim_13 bioclim_14 bioclim_15 bioclim_18 bioclim_19 bioclim_5 bioclim_6
+Layertypes: Continuous Continuous Continuous Continuous Continuous Continuous Continuous
+responsecurves: true
+outputformat: logistic
+outputdirectory: /home/viktsend/Work/20p/a-tumida-sdd/output/m-gbif-conservative_x_0.5
+samplesfile: /home/viktsend/Work/20p/a-tumida-sdd/samples/A-tumida-occurrences-World+Italy+GBIF.csv
+environmentallayers: /home/viktsend/Work/20p/a-tumida-sdd/environmental-layers
+betamultiplier: 0.5
+threshold: true
+
+getSamples: max memory 536870912, total allocated 526385152, free 273877776, used 252507376, increment 6291456
+Making features
+makeFeatures: max memory 536870912, total allocated 526385152, free 270701712, used 255683440, increment 3176064
+aetina_tumida: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+144 samples
+Density: max memory 536870912, total allocated 526385152, free 259015448, used 267369704, increment 11686264
+linearPredictor: max memory 536870912, total allocated 526385152, free 258934352, used 267450800, increment 81096
+FeaturedSpace: max memory 536870912, total allocated 526385152, free 258934352, used 267450800, increment 0
+Sequential: max memory 536870912, total allocated 526385152, free 258934352, used 267450800, increment 0
+Initial loss: 9.2237500588861
+Time since start: 3.885
+500: time = 3.610000 loss = 7.496075
+Resulting gain: 1.7276750348136307
+Projecting...
+Writing file /home/viktsend/Work/20p/a-tumida-sdd/output/m-gbif-conservative_x_0.5/aetina_tumida.asc
+Time since start: 5.49
+Writing /home/viktsend/Work/20p/a-tumida-sdd/output/m-gbif-conservative_x_0.5/plots/aetina_tumida.png
+aetina_tumida response curves
+Response curve: only bioclim_13
+Making features
+makeFeatures: max memory 536870912, total allocated 526385152, free 425601128, used 100784024, increment -166666776
+aetina_tumida bioclim_13: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+144 samples
+Density: max memory 536870912, total allocated 526385152, free 424059744, used 102325408, increment 1541384
+linearPredictor: max memory 536870912, total allocated 526385152, free 423978648, used 102406504, increment 81096
+FeaturedSpace: max memory 536870912, total allocated 526385152, free 423978648, used 102406504, increment 0
+Sequential: max memory 536870912, total allocated 526385152, free 423978648, used 102406504, increment 0
+Initial loss: 9.2237500588861
+320: time = 0.407000 loss = 8.563478
+Resulting gain: 0.6602719763439442
+aetina_tumida response curves
+Response curve: only bioclim_14
+Making features
+makeFeatures: max memory 536870912, total allocated 526385152, free 336760352, used 189624800, increment 87218296
+aetina_tumida bioclim_14: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+144 samples
+Density: max memory 536870912, total allocated 526385152, free 335305104, used 191080048, increment 1455248
+linearPredictor: max memory 536870912, total allocated 526385152, free 335224008, used 191161144, increment 81096
+FeaturedSpace: max memory 536870912, total allocated 526385152, free 335224008, used 191161144, increment 0
+Sequential: max memory 536870912, total allocated 526385152, free 335224008, used 191161144, increment 0
+Initial loss: 9.2237500588861
+240: time = 0.170000 loss = 8.793553
+Resulting gain: 0.43019734557097067
+aetina_tumida response curves
+Response curve: only bioclim_15
+Making features
+makeFeatures: max memory 536870912, total allocated 526385152, free 211410944, used 314974208, increment 123813064
+aetina_tumida bioclim_15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+144 samples
+Density: max memory 536870912, total allocated 526385152, free 209867864, used 316517288, increment 1543080
+linearPredictor: max memory 536870912, total allocated 526385152, free 209786768, used 316598384, increment 81096
+FeaturedSpace: max memory 536870912, total allocated 526385152, free 209786768, used 316598384, increment 0
+Sequential: max memory 536870912, total allocated 526385152, free 209786768, used 316598384, increment 0
+Initial loss: 9.2237500588861
+Time since start: 6.739
+380: time = 0.349000 loss = 8.961110
+Resulting gain: 0.26264044318570434
+aetina_tumida response curves
+Response curve: only bioclim_18
+Making features
+makeFeatures: max memory 536870912, total allocated 526385152, free 269922864, used 256462288, increment -60136096
+aetina_tumida bioclim_18: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+144 samples
+Density: max memory 536870912, total allocated 526385152, free 267629392, used 258755760, increment 2293472
+linearPredictor: max memory 536870912, total allocated 526385152, free 267629392, used 258755760, increment 0
+FeaturedSpace: max memory 536870912, total allocated 526385152, free 267629392, used 258755760, increment 0
+Sequential: max memory 536870912, total allocated 526385152, free 267629392, used 258755760, increment 0
+Initial loss: 9.2237500588861
+220: time = 0.363000 loss = 8.837040
+Resulting gain: 0.38671036311916396
+aetina_tumida response curves
+Response curve: only bioclim_19
+Making features
+makeFeatures: max memory 536870912, total allocated 526385152, free 180857128, used 345528024, increment 86772264
+aetina_tumida bioclim_19: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+144 samples
+Density: max memory 536870912, total allocated 526385152, free 179196600, used 347188552, increment 1660528
+linearPredictor: max memory 536870912, total allocated 526385152, free 179115504, used 347269648, increment 81096
+FeaturedSpace: max memory 536870912, total allocated 526385152, free 179115504, used 347269648, increment 0
+Sequential: max memory 536870912, total allocated 526385152, free 179115504, used 347269648, increment 0
+Initial loss: 9.2237500588861
+300: time = 0.451000 loss = 8.551041
+Resulting gain: 0.6727092086569186
+aetina_tumida response curves
+Response curve: only bioclim_5
+Making features
+makeFeatures: max memory 536870912, total allocated 526385152, free 401149000, used 125236152, increment -222033496
+aetina_tumida bioclim_5: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+144 samples
+Density: max memory 536870912, total allocated 526385152, free 399429864, used 126955288, increment 1719136
+linearPredictor: max memory 536870912, total allocated 526385152, free 399348768, used 127036384, increment 81096
+FeaturedSpace: max memory 536870912, total allocated 526385152, free 399348768, used 127036384, increment 0
+Sequential: max memory 536870912, total allocated 526385152, free 399348768, used 127036384, increment 0
+Initial loss: 9.2237500588861
+Time since start: 7.924
+200: time = 0.278000 loss = 8.540720
+Resulting gain: 0.6830304730126251
+aetina_tumida response curves
+Response curve: only bioclim_6
+Making features
+makeFeatures: max memory 536870912, total allocated 526385152, free 423683056, used 102702096, increment -24334288
+aetina_tumida bioclim_6: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+144 samples
+Density: max memory 536870912, total allocated 526385152, free 421537368, used 104847784, increment 2145688
+linearPredictor: max memory 536870912, total allocated 526385152, free 421537368, used 104847784, increment 0
+FeaturedSpace: max memory 536870912, total allocated 526385152, free 421537368, used 104847784, increment 0
+Sequential: max memory 536870912, total allocated 526385152, free 421537368, used 104847784, increment 0
+Initial loss: 9.2237500588861
+500: time = 0.953000 loss = 8.701575
+Resulting gain: 0.5221746683322657
+aetina_tumida response curves
+Time since start: 9.654
+Ending

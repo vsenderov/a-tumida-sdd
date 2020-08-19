@@ -1,0 +1,65 @@
+Fri Aug 14 15:09:40 CEST 2020
+MaxEnt version 3.4.1
+Checking header of /home/viktsend/Work/20p/a-tumida-sdd/environmental-layers/bioclim_13.asc
+Checking header of /home/viktsend/Work/20p/a-tumida-sdd/environmental-layers/bioclim_14.asc
+Checking header of /home/viktsend/Work/20p/a-tumida-sdd/environmental-layers/bioclim_15.asc
+Checking header of /home/viktsend/Work/20p/a-tumida-sdd/environmental-layers/bioclim_18.asc
+Checking header of /home/viktsend/Work/20p/a-tumida-sdd/environmental-layers/bioclim_19.asc
+Checking header of /home/viktsend/Work/20p/a-tumida-sdd/environmental-layers/bioclim_5.asc
+Checking header of /home/viktsend/Work/20p/a-tumida-sdd/environmental-layers/bioclim_6.asc
+Reading samples from A-tumida-occurrences-World+Italy+GBIF.csv
+Read samples: max memory 536870912, total allocated 526385152, free 450059264, used 76325888, increment -23283736
+Warning: Sample at 0.0, 0.0 in A-tumida-occurrences-World+Italy+GBIF.csv is outside the bounding box of environmental data, skipping
+Extractor: max memory 536870912, total allocated 526385152, free 445376232, used 81008920, increment 4683032
+Extracting random background and sample data
+265111 points with values for all grids
+Adding samples to background in feature space
+Command line used: 
+Command line to repeat: java density.MaxEnt nowarnings noprefixes responsecurves outputformat=logistic outputdirectory=/home/viktsend/Work/20p/a-tumida-sdd/output/m-all projectionlayers=/home/viktsend/Work/20p/a-tumida-sdd/output/m-gbif-conservative_x_0.5 samplesfile=/home/viktsend/Work/20p/a-tumida-sdd/samples/A-tumida-occurrences-World+Italy+GBIF.csv environmentallayers=/home/viktsend/Work/20p/a-tumida-sdd/environmental-layers betamultiplier=0.5 threshold -N bioclim_1 -N bioclim_10 -N bioclim_11 -N bioclim_12 -N bioclim_16 -N bioclim_17 -N bioclim_2 -N bioclim_3 -N bioclim_4 -N bioclim_7 -N bioclim_8 -N bioclim_9 -N soil-max -N soil-mean -N soil-min
+Species: aetina_tumida
+Layers: bioclim_13 bioclim_14 bioclim_15 bioclim_18 bioclim_19 bioclim_5 bioclim_6
+Layertypes: Continuous Continuous Continuous Continuous Continuous Continuous Continuous
+responsecurves: true
+outputformat: logistic
+outputdirectory: /home/viktsend/Work/20p/a-tumida-sdd/output/m-all
+projectionlayers: /home/viktsend/Work/20p/a-tumida-sdd/output/m-gbif-conservative_x_0.5
+samplesfile: /home/viktsend/Work/20p/a-tumida-sdd/samples/A-tumida-occurrences-World+Italy+GBIF.csv
+environmentallayers: /home/viktsend/Work/20p/a-tumida-sdd/environmental-layers
+betamultiplier: 0.5
+threshold: true
+
+getSamples: max memory 536870912, total allocated 526385152, free 439094320, used 87290832, increment 6281912
+Time since start: 1.429
+Making features
+makeFeatures: max memory 536870912, total allocated 526385152, free 435564560, used 90820592, increment 3529760
+aetina_tumida: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+144 samples
+Density: max memory 536870912, total allocated 526385152, free 423887920, used 102497232, increment 11676640
+linearPredictor: max memory 536870912, total allocated 526385152, free 423806824, used 102578328, increment 81096
+FeaturedSpace: max memory 536870912, total allocated 526385152, free 423806824, used 102578328, increment 0
+Sequential: max memory 536870912, total allocated 526385152, free 423806824, used 102578328, increment 0
+Initial loss: 9.2237500588861
+Time since start: 4.964
+500: time = 3.392000 loss = 7.496075
+Resulting gain: 1.7276750348136307
+Projecting...
+Writing file /home/viktsend/Work/20p/a-tumida-sdd/output/m-all/aetina_tumida.asc
+Time since start: 6.527
+Writing /home/viktsend/Work/20p/a-tumida-sdd/output/m-all/plots/aetina_tumida.png
+Projecting...
+Layer bioclim_13 is missing from /home/viktsend/Work/20p/a-tumida-sdd/output/m-gbif-conservative_x_0.5
+java.lang.Exception
+	at density.Utils.logError(Utils.java:218)
+	at density.Utils.popupError(Utils.java:224)
+	at density.Utils.getGridAbsolutePath(Utils.java:108)
+	at density.Project.newGrid(Project.java:96)
+	at density.Project.getGrid(Project.java:65)
+	at density.Project.projectGrid(Project.java:210)
+	at density.Project.doProject(Project.java:112)
+	at density.Runner.start(Runner.java:555)
+	at density.GUI$7.construct(GUI.java:342)
+	at density.SwingWorker$2.run(SwingWorker.java:131)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Time since start: 13.086
+Ending
